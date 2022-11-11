@@ -15,7 +15,7 @@ export default function RightChat(props){
 
     useEffect(() => {
       if(props.message.includes('fuck')){
-        alert ('heei anda berkata kasar')
+        alert ('Kata Kasar tidak diperbolehkan ')
       }
 
     },[message])

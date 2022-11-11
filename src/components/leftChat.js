@@ -13,7 +13,7 @@ export default function LeftChat(props){
 
     useEffect(() => {
       if(props.message.includes('fuck')){
-        alert ('heei anda berkata kasar')
+        alert ('Kata Kasar Tidak Diperbolehkan')
       }
 
     },[message])
